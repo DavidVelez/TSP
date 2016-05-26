@@ -40,7 +40,7 @@ def travel(w):
 				#se busca la ruta menos costosa para el viaje, es decir se buscan los valores minimos. 
 				B[(S, j)] =min((A[(S-{j},k)][0] + w[k][j], A[(S-{j},k)][1] + [j]) for k in S if k != 0 and k!=j) 
 		A = B
-		#Ahora se agrean camino inicial y camino final
+		#Ahora se agregan camino inicial y camino final
 	res = min([(A[d][0] + w[0][d[1]], A[d][1]) for d in iter(A)])
 	#Encontrado el valor minimo se tiene la solucion optima.
 
