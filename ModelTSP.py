@@ -6,7 +6,7 @@
 import itertools 
 
 
-# En primera instancia se crea una matriz de 6x6, dicha matris es asimetrica,
+# En primera instancia se crea una matriz de 6x6, dicha matriz es asimetrica,
 #esto se debe a que los costos para viajar de ciudad en ciudad varian.
 
 w = [
