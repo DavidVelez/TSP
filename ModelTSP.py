@@ -22,7 +22,7 @@ w = [
 
  
 def travel(w):
-	global time_tot
+	
 	n = len(w) 
 
 
